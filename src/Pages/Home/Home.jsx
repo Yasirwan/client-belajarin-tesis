@@ -150,7 +150,7 @@ const Home = () => {
             <span className="block font-bold text-left">
               WEEK 2</span>
             <p className="text-sm text-gray-600 text-left">
-            ❗ Deadline pengumpulan LKPD W1 Jumat, 14/06/2024 23:59<br/>
+            ❗ Deadline pengumpulan LKPD W1 Jumat<br/>
             Terimakasih dan selamat beraktivitas...
             </p>
 
@@ -159,7 +159,7 @@ const Home = () => {
             <span className="block font-bold text-left">
               WEEK 3</span>
             <p className="text-sm text-gray-600 text-left">
-            ❗ Deadline pengumpulan LKPD W2 Jumat, 21/06/2024 23:59<br/>
+            ❗ Deadline pengumpulan LKPD W2 Rabu<br/>
             Terimakasih dan selamat beraktivitas...
             </p>
 

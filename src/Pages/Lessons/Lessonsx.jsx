@@ -164,7 +164,7 @@ const Lessonsx = () => {
             {/* <button>
               <a href="../html/login_page.html">Sign Up Now! </a>
             </button> */}
-            <button onClick={() => navigate('/login')} className="p-2 my-2" style={{ backgroundColor: '#920000' }}>Get Started</button>
+            <button onClick={() => navigate('/login')} className="p-2 my-2" style={{ backgroundColor: '#1E0342' }}>Get Started</button>
           </div>
         </div>
 

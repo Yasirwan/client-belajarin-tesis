@@ -159,11 +159,11 @@ const Test = () => {
             />
             <select name="class" onChange={(e) => handleFormChange(e)}>
               <option value="">Choose Class</option>
-              <option value="X PPLG 1">X PPLG 1</option>
-              <option value="X PPLG 2">X PPLG 2</option>
-              <option value="X PPLG 3">X PPLG 3</option>
-              <option value="X PPLG 4">X PPLG 4</option>
-              <option value="X PPLG 5">X PPLG 5</option>
+              <option value="X PPLG 1">X RPL 1</option>
+              <option value="X PPLG 2">X RPL 2</option>
+              <option value="X PPLG 3">X RPL 3</option>
+              <option value="X PPLG 4">X RPL 4</option>
+              <option value="X PPLG 5">X RPL 5</option>
             </select>
           </form>
           {size ? (
