@@ -108,7 +108,7 @@ const SingleDoubt = () => {
               className="mx-auto border-none w-3/4 px-4"
               value={descPengetahuanAkhir}
               onChange={(e) => setDescPengetahuanAkhir(e.target.value)}
-              placeholder="e.g. Salsa | Sistematis, Langkah, Metode, Input,Proses"
+              placeholder="e.g. Yasir | Sistematis, Langkah, Metode, Input,Proses"
             />
             <input type="submit" className="bg-custom-red text-white py-2 px-4 rounded-full border-none max-w-md mx-auto w-1/4" />
           </form>

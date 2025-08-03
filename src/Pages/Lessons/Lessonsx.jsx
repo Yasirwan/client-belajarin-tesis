@@ -12,7 +12,7 @@ import deleteImage from '/img/deletec.png';
 import logo from "../../Assets/logo.png";
 import ava from "../../Assets/useravatar.png";
 import coverImage from '/img/cover.png';
-import ava_salsa from '/img/ava_salsa.png';
+import ava_salsa from '/img/ava_salsa.jpg';
 import { FaInstagram } from "react-icons/fa";
 import { FiYoutube } from "react-icons/fi";
 import { IoCallOutline } from "react-icons/io5";
@@ -159,7 +159,7 @@ const Lessonsx = () => {
           <div className="hero-information" data-aos="fade-left" data-aos-delay="500">
             <h1>Transforming Education, Empowering Futures</h1>
             <p>
-            Studee delivers a fun and easy learning experience through rich interactive multimedia, <br/>real-time feedback, and drag-and-drop quizzes. It utilizes the Needham Model <br/>to ensure every student learns effectively and reaches their full potential.
+            BelajarIn delivers a fun and easy learning experience through rich interactive multimedia, <br/>real-time feedback, and drag-and-drop quizzes. It utilizes the Needham Model <br/>to ensure every student learns effectively and reaches their full potential.
             </p>
             {/* <button>
               <a href="../html/login_page.html">Sign Up Now! </a>
@@ -185,7 +185,7 @@ const Lessonsx = () => {
                   data-aos-duration="2000"
                 >
                   <img src={ava_salsa} alt="Salsa" />
-                  <h3>Tsalsabilla Nurfitriyatna Putri</h3>
+                  <h3>Muhamad Yaisrwan Dwi Cahyono</h3>
                   <h2>Fullstack Developer</h2>
                   <p>Universitas Pendidikan Indonesia</p>
                   <p>Computer Science Education</p>
@@ -200,7 +200,7 @@ const Lessonsx = () => {
                 </div>
                 <div className="profile-text rounded-lg px-8 py-3 text-left">
                 <h1 className="title py-2 mt-4">Developer Profile</h1>
-                <p>I'm Salsa, deeply passionate about frontend development with a strong focus on best practices. My expertise spans the entire frontend development spectrum, from design and code implementation to deployment. With a proven track record in end-to-end project management and stakeholder engagement, I bring a unique blend of technical proficiency in MERN stack (MongoDb, Express, React, Node.Js) as well as being a proficient management skills. I see myself as your frontend developer, committed to supporting your company’s frontend projects who is not only creative but also attention to detail.</p>
+                <p>I'm Yasir, deeply passionate about frontend development with a strong focus on best practices. My expertise spans the entire frontend development spectrum, from design and code implementation to deployment. With a proven track record in end-to-end project management and stakeholder engagement, I bring a unique blend of technical proficiency in MERN stack (MongoDb, Express, React, Node.Js) as well as being a proficient management skills. I see myself as your frontend developer, committed to supporting your company’s frontend projects who is not only creative but also attention to detail.</p>
                 <a target="_blank" href="https://drive.google.com/file/d/1_xOxlyqG0c_euccaBZnFkS1IINASUuY2/view" class="rounded-full py-2 flex items-center cursor-pointer text-custom-red hover:transition hover:duration-150 hover:transform hover:translate-y-1 mt-2 mb-4">Curriculum Vitae<MdNavigateNext/></a>
                 </div>
                 {/* end about us bottom salsa */}
@@ -321,7 +321,7 @@ https://www.youtube.com/watch?v=kH8bkgogfD0&list=PL3uuG4lYbnOyBfw6cgmCWQSZDntAoE
                 <IoLocationOutline className="text-gray-600 mr-2"/>
                 </a>
                 <a target="_blank" href="https://www.google.com/maps/place/41%C2%B018'14.1%22N+81%C2%B054'06.1%22W/@41.3039759,-81.9029918,17.68z/data=!4m4!3m3!8m2!3d41.3039167!4d-81.9016944?entry=ttu">
-                  <p>Studee Street No.12 Seoul, Korea</p>
+                  <p>BelajarIn Street No.12 Seoul, Korea</p>
                 </a>
               </div>
             </div>
@@ -331,7 +331,7 @@ https://www.youtube.com/watch?v=kH8bkgogfD0&list=PL3uuG4lYbnOyBfw6cgmCWQSZDntAoE
           {/* footer copyrights */}
           <div className="bottom-copyright">
             <p>
-            © 2024 studee | All Rights Reserved | Created by salsa💖
+            © 2024 BelajarIn | All Rights Reserved | Created by Yasir💖
             </p>
           </div>
           {/* end footer copyrights */}

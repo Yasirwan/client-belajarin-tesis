@@ -133,12 +133,12 @@ const Login = () => {
     <div className="login">
       <br />
       <div className="loginContainer">
-      <div className="loginImage w-2/5">
-          <img src={coverImage} className="w-4/5 mx-auto"/>
+        <div className="loginImage w-2/5">
+          <img src={coverImage} className="w-4/5 mx-auto" />
         </div>
         <div className="loginDetail">
           <div>
-          <h3 className="text-gray-700 text-xl font-medium">Studee</h3>
+            <h3 className="text-gray-700 text-xl font-medium">BelajarIn</h3>
           </div>
 
           <div>
@@ -175,8 +175,8 @@ const Login = () => {
                 <button type="submit" className="p-2 my-2">Log in</button>
                 <h3 className="text-gray-700 text-l font-medium" style={{ fontSize: 'medium', fontWeight: 'normal' }}>Or</h3>
                 <div className="flex flex-row">
-                <button onClick={() => navigate('/register')} className="p-2 my-2" style={{ backgroundColor: 'white', color: '#920000', marginRight: '20px', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)'}}>Sign up</button>
-                <button onClick={() => navigate('/')} className="p-2 my-2" style={{ backgroundColor: 'white', color: '#920000', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)' }}>Home</button>
+                  <button onClick={() => navigate('/register')} className="p-2 my-2" style={{ backgroundColor: 'white', color: '#3B215E', marginRight: '20px', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)' }}>Sign up</button>
+                  <button onClick={() => navigate('/')} className="p-2 my-2" style={{ backgroundColor: 'white', color: '#3B215E', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)' }}>Home</button>
                 </div>
               </div>
             </form>

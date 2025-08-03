@@ -41,7 +41,7 @@
 }
 .questionDiv {
   margin-bottom: 10px;
-  border: 1px solid var(--red);
+  border: 1px solid var(--blue);
   padding: 10px;
   border-radius: 20px;
   text-align: right;

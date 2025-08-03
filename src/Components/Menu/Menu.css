@@ -26,14 +26,14 @@
   font-weight: 500;
 }
 #sidebar .side-menu.top li.active a {
-  color: var(--red);
+  color: var(--blue);
 }
 #sidebar.hide .side-menu li a {
   width: calc(48px - (4px * 2));
   transition: width 0.3s ease;
 }
 #sidebar .side-menu li a.logout {
-  color: var(--red);
+  color: var(--blue);
 }
 #sidebar .side-menu.top li a:hover {
   color: var(--pink);

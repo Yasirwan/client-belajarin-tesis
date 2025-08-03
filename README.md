@@ -1,6 +1,6 @@
-# Multimedia Interaktif Studee
+# Multimedia Interaktif BelajarIn
 
-Studee is a full-featured, multipurpose, built with react js, HTML5, and CSS (MERN stack). It has a huge collection of reusable UI components and is integrated with the latest CSS libraries.
+BelajarIn is a full-featured, multipurpose, built with react js, HTML5, and CSS (MERN stack). It has a huge collection of reusable UI components and is integrated with the latest CSS libraries.
 
 # Installation
 
@@ -68,13 +68,13 @@ Salt_rounds = 5
 ## Features Completed
 
 - Admin can regulate user access to particular data
-- Students can monitor their performance and assess their progress using a Studee.
+- Students can monitor their performance and assess their progress using a BelajarIn.
 - Students can raise knowledge
 - Teacher can add responses to knowledge
 - Teacher can only administer their own courses
 - Admin can access to manage all courses
 - Leaderboard showing top students with the maximum gaming points
-- Studee can interact with email
+- BelajarIn can interact with email
 
 ## Features yet to be made
 

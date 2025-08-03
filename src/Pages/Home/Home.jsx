@@ -82,7 +82,7 @@ const Home = () => {
           <div className="overview">
             <div className="overview-left">
               <div>
-                <h2> Welcome to Studee</h2>
+                <h2> Welcome to BelajarIn</h2>
                 <p>Transforming Education, Empowering Futures</p>
               </div>
               <div>
@@ -171,7 +171,7 @@ const Home = () => {
 
           </div>
           <div className="homeFooter">
-          © 2024 studee | All Rights Reserved | Created by salsa💖
+          © 2024 BelajarIn | All Rights Reserved | Created by Yasir💖
           </div>
         </div>
       </Navbar>

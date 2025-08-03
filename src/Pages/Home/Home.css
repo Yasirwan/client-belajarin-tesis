@@ -20,7 +20,7 @@
   gap: 10px;
   padding: 30px;
   background: rgb(255,209,67);
-  background: linear-gradient(140deg, rgba(255,209,67,1) 0%, rgba(255,134,158,1) 50%, rgba(146,0,0,1) 100%);
+  background: #C5D4DB;
   color: #fff;
   border-radius: 10px;
   position: relative;
@@ -83,14 +83,14 @@
   color: var(--yellow);
 }
 .main .overview-right li:nth-child(3) > div {
-  border: 1px solid var(--red);
-  border-left: 3px solid var(--red);
-  color: var(--red);
+  border: 1px solid var(--blue);
+  border-left: 3px solid var(--blue);
+  color: var(--blue);
 }
 .main .overview-right li:nth-child(4) > div {
-  border: 1px solid var(--red);
-  border-left: 3px solid var(--red);
-  color: var(--red);
+  border: 1px solid var(--blue);
+  border-left: 3px solid var(--blue);
+  color: var(--blue);
 }
 .main .overview-right li:nth-child(5) > div {
   border: 1px solid var(--pink);

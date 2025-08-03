@@ -46,7 +46,7 @@
 }
 .questionDiv {
   margin-bottom: 10px;
-  border: 1px solid var(--red);
+  border: 1px solid var(--blue);
   padding: 10px;
   border-radius: 20px;
   text-align: right;
@@ -125,7 +125,7 @@ nav{
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  color: var(--red);
+  color: var(--blue);
 }
 /* end navigation bar left */
 
@@ -144,7 +144,7 @@ nav{
 }
 
 .wrap-menu a:hover{
-  color: var(--red);
+  color: var(--blue);
   font-weight: 600;
   text-shadow: 0px 0.4rem 0.4rem rgba(0, 0, 0, 0.010);
   transform: translateY(-0.4rem);
@@ -152,7 +152,7 @@ nav{
 
 .menu1 a{
   margin: 0px 16px;
-  color: var(--red);
+  color: var(--blue);
   font-weight: 600;
 }
 
@@ -173,7 +173,7 @@ nav{
   width: 160px;
   height: 40px;
   border-radius: 40px;
-  background: var(--red);
+  background: var(--blue);
   border: none;
   color: #FFF;
   text-align: center;
@@ -250,7 +250,7 @@ button:hover{
   line-height: normal;
 }
 
-.dropdown-content a:hover {background-color: var(--red); border-radius: 40px 0px; color: var(--red);}
+.dropdown-content a:hover {background-color: var(--blue); border-radius: 40px 0px; color: var(--blue);}
 .dropdown:hover .dropdown-content {display: block;}
 .dropdown:hover .dropbtn {background-color: #ffffff;}
 /* navigation bar dropdown */
@@ -263,7 +263,7 @@ button:hover{
   padding: 140px 120px 40px 120px;
   display: flex;
   flex-direction: column;
-  color: var(--red);
+  color: var(--blue);
   background: radial-gradient(circle at top, #ffd6de 16%, #ffffff 40%);
   border-radius: 0px 0px 160px 160px;
   align-items: center;
@@ -290,7 +290,7 @@ button:hover{
 }
 
 .hero-information h1{
-  color: var(--red);
+  color: var(--blue);
   font-size: 40px;
   font-style: normal;
   font-weight: 700;
@@ -315,7 +315,7 @@ button:hover{
   width: 160px;
   height: 40px;
   border-radius: 40px;
-  background: var(--red);
+  background: var(--blue);
 }
 
 .hero-section a{
@@ -346,7 +346,7 @@ button:hover{
 }
 
 .title{
-  color: var(--red);
+  color: var(--blue);
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
@@ -381,7 +381,7 @@ table{
 }
 
 .tabel th{
-  color: var(--red);
+  color: var(--blue);
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
@@ -435,7 +435,7 @@ table{
   width: 100%;
   flex-direction: column;
   background-color: #FFF;
-  color: var(--red);
+  color: var(--blue);
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
@@ -484,7 +484,7 @@ table{
 
 
 .main-form-green h3{
-  color: var(--red);
+  color: var(--blue);
   text-align: center;
   font-size: 16px;
   font-style: normal;
@@ -510,7 +510,7 @@ table{
 }
 
 .main-form-green a{
-  color: var(--red);
+  color: var(--blue);
 }
 
 .inFlex{
@@ -563,7 +563,7 @@ table{
 }
 
 .main-form h3{
-  color: var(--red);
+  color: var(--blue);
   text-align: center;
   font-size: 16px;
   font-style: normal;
@@ -624,7 +624,7 @@ footer a{
 .bottom-information1 h1{
   display: flex;
   flex-direction: column;
-  color: var(--red);
+  color: var(--blue);
   font-size: 24px;
   font-style: normal;
   font-weight: 700;

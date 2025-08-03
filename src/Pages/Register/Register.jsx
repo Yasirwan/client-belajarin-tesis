@@ -66,7 +66,7 @@ const Register = () => {
           </div>
           <div className="loginDetail">
             <div>
-            <h3 className="text-gray-700 text-xl font-medium">Studee</h3>
+            <h3 className="text-gray-700 text-xl font-medium">BelajarIn</h3>
             </div>
   
             <div>

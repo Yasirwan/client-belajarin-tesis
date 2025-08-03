@@ -5,7 +5,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--red);
+  background-color: var(--blue);
   padding: 1rem;
   border-radius: 50px;
   cursor: pointer;

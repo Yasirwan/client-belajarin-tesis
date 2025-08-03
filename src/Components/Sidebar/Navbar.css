@@ -101,17 +101,17 @@
 #content nav .menuIcon:hover {
   transform: translateY(-0.2rem);
   transition: transform 150ms;
-  color: var(--red);
+  color: var(--blue);
 }
 #content nav .nav-link {
   font-size: 16px;
   transition: 0.3s ease;
 }
 #content nav .nav-link:hover {
-  color: var(--red);
+  color: var(--blue);
 }
 #content nav .nav-link span {
-  color: var(--red);
+  color: var(--blue);
 }
 #content nav .navIcon {
   display: flex;
