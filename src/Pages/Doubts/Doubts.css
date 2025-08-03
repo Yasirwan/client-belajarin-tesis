@@ -1,0 +1,52 @@
+.content {
+  width: 100%;
+  height: calc(100vh - 75px);
+  overflow-y: auto;
+}
+.content::-webkit-scrollbar {
+  display: none;
+}
+.content > h3 {
+  text-align: center;
+  margin: 15px 0;
+}
+.contentData {
+  margin: 5px 20px;
+  padding: 20px;
+  border-radius: 15px;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.uploadBtn {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  background-color:  var(--yellow);
+  color: white;
+  font-weight: 500;
+  margin-bottom: 10px;
+  border-radius: 16px;
+}
+.submitBtn {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  background-color: var(--red);
+  color: white;
+  font-weight: 500;
+  margin-bottom: 10px;
+  border-radius: 16px;
+}
+.uploadedImgDiv {
+  border: 1px solid gray;
+  text-align: center;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 10px;
+}

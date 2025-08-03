@@ -1,0 +1,59 @@
+.singleTest {
+  width: 100%;
+  height: calc(100vh - 75px);
+  overflow-y: auto;
+}
+.singleTest ::-webkit-scrollbar {
+  display: none;
+}
+.singleTestData {
+  height: 20vh;
+  margin: 15px 20px;
+  padding: 15px 20px;
+  background: white;
+  border-radius: 15px;
+  box-shadow: rgba(178, 181, 184, 0.2) 0px 8px 24px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+.fileContainer {
+  margin: 15px 20px;
+  padding: 15px 20px;
+  justify-content: center;
+  align-items: center;
+}
+.fileContainer img {
+  width: 80vw;
+  height: 20vh;
+  margin: 15px 20px;
+  padding: 15px 20px;
+  border-radius: 20px;
+}
+.singleTestDetails {
+  margin: 25px 20px;
+  padding: 20px;
+  background: white;
+  border-radius: 15px;
+  box-shadow: rgba(178, 181, 184, 0.2) 0px 8px 24px;
+}
+
+.quiz{
+  margin: 25px 20px;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 15px;
+  box-shadow: rgba(178, 181, 184, 0.2) 0px 8px 24px;
+}
+
+/* media queries  */
+
+@media screen and (max-width: 600px) {
+  .fileContainer img {
+    height: auto;
+  }
+}
+
+div.disabled:first-of-type .connector{
+  opacity: 0;
+}
