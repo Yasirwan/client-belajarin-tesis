@@ -54,7 +54,7 @@ const Navbar = ({ children }) => {
       { icon: <MdOutlineAssignment />, title: "Tugas", address: "/doubtsz" },
       { icon: <CgGames />, title: "Kuis", address: "/scratchs" },
     ]},
-    { icon: <GoTrophy />, title: "Nilai", address: "/leaderboard" },
+    // { icon: <GoTrophy />, title: "Nilai", address: "/leaderboard" },
     // { icon: <GoTrophy />, title: "Landing Page", address: "/" }
   ];
   const studentData = [
@@ -68,7 +68,7 @@ const Navbar = ({ children }) => {
       { icon: <MdOutlineAssignment />, title: "Tugas", address: "/doubtsz" },
       { icon: <CgGames />, title: "Kuis", address: "/scratchs" },
     ]},
-    { icon: <GoTrophy />, title: "Nilai", address: "/leaderboard" },
+    // { icon: <GoTrophy />, title: "Nilai", address: "/leaderboard" },
   ];
   const tutorData = [
     { icon: <GoHome />, title: "Beranda", address: "/home" },
@@ -81,7 +81,7 @@ const Navbar = ({ children }) => {
       { icon: <MdOutlineAssignment />, title: "Tugas", address: "/doubtsz" },
       { icon: <CgGames />, title: "Kuis", address: "/scratchs" },
     ]},
-    { icon: <GoTrophy />, title: "Nilai", address: "/leaderboard" },
+    // { icon: <GoTrophy />, title: "Nilai", address: "/leaderboard" },
   ];
 
   const items = [

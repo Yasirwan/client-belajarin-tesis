@@ -184,18 +184,18 @@ const Lessonsx = () => {
                 data-aos-duration="2000"
               >
                 <img src={ava_salsa} alt="Salsa" />
-                <h3>Muhamad Yaisrwan Dwi Cahyono</h3>
+                <h3>Muhamad Yasirwan Dwi Cahyono</h3>
                 <h2>Data Analist</h2>
                 <p>Universitas Pendidikan Indonesia</p>
                 <p>Pendidikan Ilmu Komputer</p>
-                <div className="inFlex mt-2 flex justify-center w-full cursor-pointer text-black">
+                {/* <div className="inFlex mt-2 flex justify-center w-full cursor-pointer text-black">
                   <a className="hover:transition hover:duration-150 hover:transform hover:translate-y-1" target="_blank" href="http://linkedin.com/in/tsalsabillanf">
                     <TiSocialLinkedinCircular className="text-gray-600 mr-4 h-8 w-6" />
                   </a>
                   <a className="hover:transition hover:duration-150 hover:transform hover:translate-y-1" target="_blank" href="mailto:tsalsabilla569@gmail.com">
                     <CiMail className="text-gray-600 h-8 w-6" />
                   </a>
-                </div>
+                </div> */}
               </div>
               <div className="profile-text rounded-lg px-8 py-3 text-left">
                 <h1 className="title py-2 mt-4">Profil Singkat Pengembang</h1>
@@ -292,7 +292,7 @@ const Lessonsx = () => {
 
         {/* footer contact */}
         <div className="bottom-information">
-          <div className="bottom-right">
+          {/* <div className="bottom-right">
             <div className="bottom-head"></div>
             <div className="socmed">
               <a target="_blank" href="https://instagram.com/yasirwandc">
@@ -323,7 +323,7 @@ const Lessonsx = () => {
                 <p>BelajarIn Street No.12 Seoul, Korea</p>
               </a>
             </div>
-          </div>
+          </div> */}
         </div>
         {/* end footer contact */}
 
