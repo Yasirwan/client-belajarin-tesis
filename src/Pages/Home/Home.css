@@ -41,9 +41,9 @@
   font-size: 14px;
 }
 .main .overview .overview-left img {
-  width: 75%;
+  width: 60%;
   position: absolute;
-  left: 140px;
+  left: 180px;
   bottom: -32px;
 }
 
