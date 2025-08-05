@@ -130,7 +130,7 @@ const Tutor = () => {
           <AddIcon />
         </div>
         <Drawer
-          title="Create a new account"
+          title="Buat Akun Baru"
           width={720}
           onClose={onClose}
           open={open}
@@ -147,7 +147,7 @@ const Tutor = () => {
               name="name"
               type="text"
               value={FormData.name}
-              placeholder="Enter Name"
+              placeholder="Masukkan Nama"
               onChange={(e) => handleInputChange(e)}
             />
             <input
@@ -155,7 +155,7 @@ const Tutor = () => {
               name="email"
               type="email"
               value={FormData.email}
-              placeholder="Enter Email"
+              placeholder="Masukkan Email"
               onChange={(e) => handleInputChange(e)}
             />
             <input
@@ -163,7 +163,7 @@ const Tutor = () => {
               name="password"
               type="password"
               value={FormData.password}
-              placeholder="Enter Password"
+              placeholder="Masukkan Kata Sandi"
               onChange={(e) => handleInputChange(e)}
             />
             <select name="subject" onChange={(e) => handleInputChange(e)}>

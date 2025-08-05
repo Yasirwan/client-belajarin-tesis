@@ -7,7 +7,7 @@ const Header = ({ Title, Address }) => {
     <div className="head-title">
       <div className="head-left">{Title}</div>
       <div className="head-right">
-        <GoHome /> <p>/ Dashboard</p> <span>/ {Address}</span>
+        <GoHome /> <p>/ Beranda</p> <span>/ {Address}</span>
       </div>
     </div>
   );

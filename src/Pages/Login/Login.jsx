@@ -149,7 +149,7 @@ const Login = () => {
                 value={formData.id}
                 onChange={handleFormChange}
                 type="email"
-                placeholder="Enter email"
+                placeholder="Masukkan email"
                 className="p-2 my-2"
               />
               <input
@@ -158,7 +158,7 @@ const Login = () => {
                 value={formData.password}
                 onChange={handleFormChange}
                 type="password"
-                placeholder="Enter password"
+                placeholder="Masukkan Kata Sandi"
                 className="p-2 my-2"
               />
               <select
@@ -166,17 +166,17 @@ const Login = () => {
                 onChange={handleFormChange}
                 className="p-2 my-2"
               >
-                <option value="">Select user type</option>
-                <option value="admin">Admin</option>
-                <option value="student">Student</option>
-                <option value="tutor">Guest</option>
+                <option value="">Pilih Tipe Pengguna</option>
+                <option value="admin">Guru</option>
+                <option value="student">Siswa</option>
+                {/* <option value="tutor">Guest</option> */}
               </select>
               <div style={{ textAlign: 'center' }}>
-                <button type="submit" className="p-2 my-2">Log in</button>
-                <h3 className="text-gray-700 text-l font-medium" style={{ fontSize: 'medium', fontWeight: 'normal' }}>Or</h3>
+                <button type="submit" className="p-2 my-2">Masuk</button>
+                <h3 className="text-gray-700 text-l font-medium" style={{ fontSize: 'medium', fontWeight: 'normal' }}>atau</h3>
                 <div className="flex flex-row">
-                  <button onClick={() => navigate('/register')} className="p-2 my-2" style={{ backgroundColor: 'white', color: '#3B215E', marginRight: '20px', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)' }}>Sign up</button>
-                  <button onClick={() => navigate('/')} className="p-2 my-2" style={{ backgroundColor: 'white', color: '#3B215E', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)' }}>Home</button>
+                  <button onClick={() => navigate('/register')} className="p-2 my-2" style={{ backgroundColor: 'white', color: '#3B215E', marginRight: '20px', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)' }}>Daftar</button>
+                  <button onClick={() => navigate('/')} className="p-2 my-2" style={{ backgroundColor: 'white', color: '#3B215E', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)' }}>Beranda</button>
                 </div>
               </div>
             </form>

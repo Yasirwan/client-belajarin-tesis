@@ -123,7 +123,7 @@ const Test = () => {
   return (
     <Navbar>
       <div className="test">
-        <Header Title={"Test"} Address={"Test"} />
+        <Header Title={"Latihan"} Address={"Latihan"} />
 
         <div className="testData">
           {test?.map((data, i) => {
@@ -139,7 +139,7 @@ const Test = () => {
         )}
 
         <Drawer
-          title="Create Test"
+          title="Buat Latihan Baru"
           width={720}
           onClose={onClose}
           open={open}
@@ -151,19 +151,19 @@ const Test = () => {
         >
           <form>
             <input
-              placeholder="Title"
+              placeholder="Judul"
               type="text"
               name="title"
               value={formData.title}
               onChange={(e) => handleFormChange(e)}
             />
             <select name="class" onChange={(e) => handleFormChange(e)}>
-              <option value="">Choose Class</option>
-              <option value="X PPLG 1">X RPL 1</option>
-              <option value="X PPLG 2">X RPL 2</option>
-              <option value="X PPLG 3">X RPL 3</option>
-              <option value="X PPLG 4">X RPL 4</option>
-              <option value="X PPLG 5">X RPL 5</option>
+              <option value="">Pilih Kelas</option>
+              <option value="XII Oracle 1">XII Oracle 1</option>
+              <option value="XII Oracle 2">XII Oracle 2</option>
+              <option value="XII Oracle 3">XII Oracle 3</option>
+              <option value="XII Oracle 4">XII Oracle 4</option>
+              <option value="XII Oracle 5">XII Oracle 5</option>
             </select>
           </form>
           {size ? (
@@ -180,10 +180,10 @@ const Test = () => {
             className="uploadBtn"
             onClick={() => WidgetRef.current.open()}
           >
-            Upload File
+            Unggah Dokumen
           </button>
           <button className="submitBtn" onClick={handleSubmit}>
-            Add Test
+            Tambah
           </button>
 
           {loading ? (

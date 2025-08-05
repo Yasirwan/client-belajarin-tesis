@@ -32,32 +32,32 @@ const Home = () => {
   const overviewData = [
     {
       icon: <PiStudent />,
-      title: "Students",
+      title: "Siswa",
       number: dashboard?.students?.length || 0,
     },
     {
       icon: <AiOutlineSchedule />,
-      title: "Tests",
+      title: "Latihan",
       number: dashboard?.tests?.length || 0,
     },
     {
       icon: <AiOutlineRead />,
-      title: "Lessons",
+      title: "Materi",
       number: dashboard?.lessons?.length || 0,
     },
     {
       icon: <AiOutlinePlayCircle />,
-      title: "Videos",
+      title: "Video",
       number: dashboard?.contents?.length || 0,
     },
     {
       icon: <IoBulbOutline />,
-      title: "Knowledge",
+      title: "Pengetahuan",
       number: dashboard?.doubts?.length || 0,
     },
     {
       icon: <CgGames />,
-      title: "Quiz",
+      title: "Kuis",
       number: dashboard?.scratchs?.length || 0,
     },
   ];
@@ -77,18 +77,18 @@ const Home = () => {
     <div>
       <Navbar>
         <div className="main">
-          <Header Title={"Overview"} Address={"Default"} />
+          <Header Title={"Ringkasan"} Address={"Ringkasan"} />
 
           <div className="overview">
             <div className="overview-left">
               <div>
-                <h2> Welcome to BelajarIn</h2>
-                <p>Transforming Education, Empowering Futures</p>
+                <h2> Selamat Datang di BelajarIn</h2>
+                <p>Inovasi dalam Pembelajaran, Kunci untuk Masa Depan Gemilang</p>
               </div>
               <div>
-                <button>Get Started !</button>
+                <button>Mari Mulai</button>
               </div>
-              <img src={heroImage}/>
+              <img src={heroImage} />
             </div>
             <div className="overview-right">
               {overviewData?.map(({ icon, title, number }, i) => {
@@ -101,17 +101,17 @@ const Home = () => {
 
           <div className="charts">
             <div className="leaderboardData m-0 w-full">
-            <div className="chartHead bg-#920000 px-4 py-2 rounded-t-lg">
-        <p className="text-gray-800 font-bold">Leader Board</p>
-    </div>
+              <div className="chartHead bg-#920000 px-4 py-2 rounded-t-lg">
+                <p className="text-gray-800 font-bold">Papan Skor</p>
+              </div>
               <section className="tableBody">
                 <table>
                   <thead>
                     <tr>
-                      <th>Name</th>
+                      <th>Nama</th>
                       <th>Email</th>
-                      <th>Class</th>
-                      <th>Points</th>
+                      <th>Kelas</th>
+                      <th>Nilai</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -129,49 +129,40 @@ const Home = () => {
               </section>
             </div>
             <div className="pieChart w-1/4 border border-gray-200 rounded-lg shadow-md float-left">
-    <div className="chartHead bg-#920000 px-4 py-2 rounded-t-lg">
-        <p className="text-gray-800 font-bold">Announcement</p>
-    </div>
-    <div className="pieBox p-4">
-        <div className="pieData">
-        <span className="block font-bold text-left">
-              WEEK 1</span>
-            <p className="text-sm text-gray-600 text-left">
-            ❗ Masing-masing siswa diusahakan untuk mempersiapkan sarana dan prasarana untuk mendukung kelancaran pembelajaran : <br/>
-            1. laptop (disarankan) atau handphone <br/>
-            2. ⁠baterai laptop/handphone yang cukup <br/>
-            3. ⁠koneksi internet yg stabil <br/>
-            4. ⁠posisi meja dan bangku menyesuaikan kelompok dari 1-6 <br/>
-            Terimakasih dan selamat beraktivitas...
-            </p>
+              <div className="chartHead bg-#920000 px-4 py-2 rounded-t-lg">
+                <p className="text-gray-800 font-bold">Pengumuman</p>
+              </div>
+              <div className="pieBox p-4">
+                <div className="pieData">
+                  <span className="block font-bold text-left">
+                    Pertemuan 1</span>
+                  <p className="text-sm text-gray-600 text-left">
+                    Materi: Pengenalan Algoritma <br />
+                    Silakan unduh modul dan tonton video pembelajaran sebelum mengikuti forum diskusi. <br />
+                  </p>
+                  <br />
 
-            <br/>
-        
-            <span className="block font-bold text-left">
-              WEEK 2</span>
-            <p className="text-sm text-gray-600 text-left">
-            ❗ Deadline pengumpulan LKPD W1 Jumat<br/>
-            Terimakasih dan selamat beraktivitas...
-            </p>
+                  <span className="block font-bold text-left">
+                    Pertemuan 2</span>
+                  <p className="text-sm text-gray-600 text-left">
+                    Materi: Pengenalan Pemrograman<br />
+                    Sudah tersedia di LMS. Harap mempelajari materi dan mengerjakan kuis sebelum batas waktu yang ditentukan.                  </p>
+                  <br />
 
-            <br/>
-
-            <span className="block font-bold text-left">
-              WEEK 3</span>
-            <p className="text-sm text-gray-600 text-left">
-            ❗ Deadline pengumpulan LKPD W2 Rabu<br/>
-            Terimakasih dan selamat beraktivitas...
-            </p>
-
-        </div>
-    </div>
-</div>
+                  {/* <span className="block font-bold text-left">
+                    Pertemuan 3</span>
+                  <p className="text-sm text-gray-600 text-left">
+                    Materi: Percabangan dan Perulangan<br />
+                    Silakan kerjakan tugas individu dan unggah ke LMS paling lambat hari Jumat pukul 23.59 WIB.                  </p> */}
+                </div>
+              </div>
+            </div>
 
 
 
           </div>
           <div className="homeFooter">
-          © 2024 BelajarIn | All Rights Reserved | Created by Yasir💖
+            © 2025 BelajarIn | All Rights Reserved | Dibuat oleh Yasir
           </div>
         </div>
       </Navbar>

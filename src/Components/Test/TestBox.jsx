@@ -35,12 +35,12 @@ const TestBox = ({ data }) => {
         <div>
           {user.userType == "Admin" ? (
             <div className="testOption">
-              <button class="bg-white shadow-lg w-2/5 rounded-full px-4 py-2 mb-2 flex items-center justify-center cursor-pointer text-black" onClick={() => handleClick(data._id)}><IoPlayOutline className="text-green-500 mr-2"/>Start</button>
-              <button class="bg-white shadow-lg w-2/5 rounded-full px-4 py-2 flex items-center justify-center cursor-pointer text-black" onClick={() => handleDelete(data._id)}><FiTrash2 className="text-red-500 mr-2"/>Delete</button>
+              <button class="bg-white shadow-lg w-2/5 rounded-full px-4 py-2 mb-2 flex items-center justify-center cursor-pointer text-black" onClick={() => handleClick(data._id)}><IoPlayOutline className="text-green-500 mr-2"/>Mulai</button>
+              <button class="bg-white shadow-lg w-2/5 rounded-full px-4 py-2 flex items-center justify-center cursor-pointer text-black" onClick={() => handleDelete(data._id)}><FiTrash2 className="text-red-500 mr-2"/>Hapus</button>
             </div>
           ) : (
             <div className="testOption">
-              <button class="bg-white shadow-lg w-2/5 rounded-full px-4 py-2 mb-2 flex items-center justify-center cursor-pointer text-black" onClick={() => handleClick(data._id)}><IoPlayOutline className="text-green-500 mr-2"/>Start</button>
+              <button class="bg-white shadow-lg w-2/5 rounded-full px-4 py-2 mb-2 flex items-center justify-center cursor-pointer text-black" onClick={() => handleClick(data._id)}><IoPlayOutline className="text-green-500 mr-2"/>Mulai</button>
             </div>
           )}
         </div>

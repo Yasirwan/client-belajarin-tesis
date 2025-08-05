@@ -100,7 +100,7 @@ const Admin = () => {
   return (
     <Navbar>
       <div className="admin">
-        <Header Title={"Admin Data"} Address={"Admin"} />
+        <Header Title={"Data Guru"} Address={"Guru"} />
 
         <div className="adminData">
           <Table Data={admins} />
@@ -111,7 +111,7 @@ const Admin = () => {
         </div>
 
         <Drawer
-          title="Create a new account"
+          title="Buat Akun Baru"
           width={720}
           onClose={onClose}
           open={open}
@@ -127,7 +127,7 @@ const Admin = () => {
               name="name"
               type="text"
               value={FormData.name}
-              placeholder="Enter Name"
+              placeholder="Masukkan Nama"
               onChange={(e) => handleInputChange(e)}
             />
             <input
@@ -135,7 +135,7 @@ const Admin = () => {
               name="email"
               type="email"
               value={FormData.email}
-              placeholder="Enter Email"
+              placeholder="Masukkan Email"
               onChange={(e) => handleInputChange(e)}
             />
             <input
@@ -143,10 +143,10 @@ const Admin = () => {
               name="password"
               type="password"
               value={FormData.password}
-              placeholder="Enter Password"
+              placeholder="Masukkan Kata Sandi"
               onChange={(e) => handleInputChange(e)}
             />
-            <input type="submit" value="Add Admin" />
+            <input type="submit" value="Tambah" />
           </form>
 
           {contextHolder}

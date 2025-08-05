@@ -41,47 +41,47 @@ const Navbar = ({ children }) => {
   const [toggle, setToggle] = useState(true);
 
   const adminData = [
-    { icon: <GoHome />, title: "Dashboard", address: "/home" },
-    { icon: <RiAdminLine />, title: "Admin", address: "/admin" },
-    { icon: <PiChalkboardTeacher />, title: "Tutors", address: "/tutor" },
-    { icon: <PiStudent />, title: "Students", address: "/student" },
-    { icon: <AiOutlineSchedule />, title: "Test", address: "/tests" },
-    { icon: <AiOutlineRead />, title: "Lessons", address: "/lessons" },
-    { icon: <MdOutlineMenuOpen />, title: "Activities", childrens: [
-      { icon: <AiOutlinePlayCircle />, title: "Videos", address: "/contents" },
-      { icon: <IoExtensionPuzzleOutline />, title: "Initial Knowledge", address: "/doubts" },
-      { icon: <IoBulbOutline />, title: "Final Knowledge", address: "/doubtsx" },
-      { icon: <MdOutlineAssignment />, title: "Assignments", address: "/doubtsz" },
-      { icon: <CgGames />, title: "Quiz", address: "/scratchs" },
+    { icon: <GoHome />, title: "Beranda", address: "/home" },
+    { icon: <RiAdminLine />, title: "Guru", address: "/admin" },
+    // { icon: <PiChalkboardTeacher />, title: "Tutors", address: "/tutor" },
+    { icon: <PiStudent />, title: "Siswa", address: "/student" },
+    { icon: <AiOutlineSchedule />, title: "Latihan", address: "/tests" },
+    { icon: <AiOutlineRead />, title: "Materi", address: "/lessons" },
+    { icon: <MdOutlineMenuOpen />, title: "Aktivitas", childrens: [
+      { icon: <AiOutlinePlayCircle />, title: "Video", address: "/contents" },
+      { icon: <IoExtensionPuzzleOutline />, title: "Pengetahuan Awal", address: "/doubts" },
+      { icon: <IoBulbOutline />, title: "Pengetahuan Akhir", address: "/doubtsx" },
+      { icon: <MdOutlineAssignment />, title: "Tugas", address: "/doubtsz" },
+      { icon: <CgGames />, title: "Kuis", address: "/scratchs" },
     ]},
-    { icon: <GoTrophy />, title: "Grades", address: "/leaderboard" },
+    { icon: <GoTrophy />, title: "Nilai", address: "/leaderboard" },
     // { icon: <GoTrophy />, title: "Landing Page", address: "/" }
   ];
   const studentData = [
-    { icon: <GoHome />, title: "Dashboard", address: "/home" },
-    { icon: <AiOutlineSchedule />, title: "Test", address: "/tests" },
-    { icon: <AiOutlineRead />, title: "Lessons", address: "/lessons" },
-    { icon: <MdOutlineMenuOpen />, title: "Activities", childrens: [
-      { icon: <AiOutlinePlayCircle />, title: "Videos", address: "/contents" },
-      { icon: <IoExtensionPuzzleOutline />, title: "Initial Knowledge", address: "/doubts" },
-      { icon: <IoBulbOutline />, title: "Final Knowledge", address: "/doubtsx" },
-      { icon: <MdOutlineAssignment />, title: "Assignments", address: "/doubtsz" },
-      { icon: <CgGames />, title: "Quiz", address: "/scratchs" },
+    { icon: <GoHome />, title: "Beranda", address: "/home" },
+    { icon: <AiOutlineSchedule />, title: "Latihan", address: "/tests" },
+    { icon: <AiOutlineRead />, title: "Materi", address: "/lessons" },
+    { icon: <MdOutlineMenuOpen />, title: "Aktivitas", childrens: [
+      { icon: <AiOutlinePlayCircle />, title: "Video", address: "/contents" },
+      { icon: <IoExtensionPuzzleOutline />, title: "Pengetahuan Awal", address: "/doubts" },
+      { icon: <IoBulbOutline />, title: "Pengetahuan Akhir", address: "/doubtsx" },
+      { icon: <MdOutlineAssignment />, title: "Tugas", address: "/doubtsz" },
+      { icon: <CgGames />, title: "Kuis", address: "/scratchs" },
     ]},
-    { icon: <GoTrophy />, title: "Grades", address: "/leaderboard" },
+    { icon: <GoTrophy />, title: "Nilai", address: "/leaderboard" },
   ];
   const tutorData = [
-    { icon: <GoHome />, title: "Dashboard", address: "/home" },
+    { icon: <GoHome />, title: "Beranda", address: "/home" },
     { icon: <AiOutlineSchedule />, title: "Test", address: "/tests" },
     { icon: <AiOutlineRead />, title: "Lessons", address: "/lessons" },
-    { icon: <MdOutlineMenuOpen />, title: "Activities", childrens: [
-      { icon: <AiOutlinePlayCircle />, title: "Videos", address: "/contents" },
-      { icon: <IoExtensionPuzzleOutline />, title: "Initial Knowledge", address: "/doubts" },
-      { icon: <IoBulbOutline />, title: "Final Knowledge", address: "/doubtsx" },
-      { icon: <MdOutlineAssignment />, title: "Assignments", address: "/doubtsz" },
-      { icon: <CgGames />, title: "Quiz", address: "/scratchs" },
+    { icon: <MdOutlineMenuOpen />, title: "Aktivitas", childrens: [
+      { icon: <AiOutlinePlayCircle />, title: "Video", address: "/contents" },
+      { icon: <IoExtensionPuzzleOutline />, title: "Pengetahuan Awal", address: "/doubts" },
+      { icon: <IoBulbOutline />, title: "Pengetahuan Akhir", address: "/doubtsx" },
+      { icon: <MdOutlineAssignment />, title: "Tugas", address: "/doubtsz" },
+      { icon: <CgGames />, title: "Kuis", address: "/scratchs" },
     ]},
-    { icon: <GoTrophy />, title: "Grades", address: "/leaderboard" },
+    { icon: <GoTrophy />, title: "Nilai", address: "/leaderboard" },
   ];
 
   const items = [
@@ -90,7 +90,7 @@ const Navbar = ({ children }) => {
       label:
       <span className="text-center block">
       <p>{name}</p>
-      <p> as {userType} </p>
+      <p> sebagai {userType} </p>
       </span>,
     },
     // {
@@ -157,7 +157,7 @@ const Navbar = ({ children }) => {
               })
             : ""}
           <span onClick={() => handleLogout()}>
-            <Menu Icon={<BiLogOut />} Title={"Logout"} Address={""} />
+            <Menu Icon={<BiLogOut />} Title={"Keluar"} Address={""} />
           </span>
         </ul>
       </div>
@@ -172,14 +172,14 @@ const Navbar = ({ children }) => {
             {userType == "Student" ? (
               premium == "false" ? (
                 <Link href="/" className="nav-link">
-                  Welcome to <span>BelajarIn 🖐</span>
+                  Halo, Selamat Datang di <span>BelajarIn 🖐</span>
                 </Link>
               ) : (
                 "🔥You are a premium member !"
               )
             ) : (
               <Link href="/" className="nav-link">
-                Welcome to BelajarIn 🖐
+                Halo, Selamat Datang di BelajarIn 🖐
               </Link>
             )}
           </div>

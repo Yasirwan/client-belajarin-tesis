@@ -86,7 +86,7 @@ const Register = () => {
                   value={formData.email}
                   onChange={handleFormChange}
                   type="email"
-                  placeholder="Enter email"
+                  placeholder="Masukkan email"
                   className="p-2 my-2"
                 />
                 <input
@@ -95,7 +95,7 @@ const Register = () => {
                   value={formData.password}
                   onChange={handleFormChange}
                   type="password"
-                  placeholder="Enter password"
+                  placeholder="Masukkan Kata Sandi"
                   className="p-2 my-2"
                 />
                 <input

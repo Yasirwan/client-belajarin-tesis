@@ -8,11 +8,11 @@ const Table = ({ Data }) => {
       <table>
         <thead>
           <tr>
-            <th>Name</th>
+            <th>Nama</th>
             <th>Email</th>
-            <th>Access</th>
-            <th>Edit</th>
-            <th>Delete</th>
+            <th>Akses</th>
+            <th>Ubah</th>
+            <th>Hapus</th>
           </tr>
         </thead>
         <tbody>

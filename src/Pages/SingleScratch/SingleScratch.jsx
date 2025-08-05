@@ -42,7 +42,7 @@ const SingleScratch = () => {
   return (
     <Navbar>
       <div className="singleContent">
-        <Header Title={"Quiz"} Address={"Quiz"} />
+        <Header Title={"Kuis"} Address={"Kuis"} />
 
         <div className="scratchResponses bg-white bg-opacity-50 rounded-lg p-4 my-2">
           <p>{singleScratch?.title}</p>
@@ -64,7 +64,7 @@ const SingleScratch = () => {
 
         <div className="flex flex-row justify-center">
         <div className="scratchResponses bg-custom-red rounded-full p-4 my-2 w-2/6 d-flex justify-content-center mt-4" >
-          <h3 className="text-white font-bold text-center">Quiz Result</h3>
+          <h3 className="text-white font-bold text-center">Hasil Kuis</h3>
         </div>
         </div>
 
@@ -83,7 +83,7 @@ const SingleScratch = () => {
               className="mx-auto border-none w-3/4 px-4"
               value={desc}
               onChange={(e) => setDesc(e.target.value)}
-              placeholder="Screenshoot score"
+              placeholder="Tangkapan Layar Nilai"
             />
             <input
               name="numberInput"
@@ -91,7 +91,7 @@ const SingleScratch = () => {
               type="number"
               value={numberValue}
               onChange={(e) => setNumberValue(e.target.value)}
-              placeholder="Score"
+              placeholder="Nilai"
             />
             <input type="submit" className="bg-custom-red text-white py-2 px-4 rounded-full border-none max-w-md mx-auto w-1/4" />
           </form>

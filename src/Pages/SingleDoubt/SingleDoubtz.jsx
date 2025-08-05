@@ -54,7 +54,7 @@ const SingleDoubtz = () => {
   return (
     <Navbar>
       <div className="singleContent">
-        <Header Title={"Assignment"} Address={"Assignment"} />
+        <Header Title={"Tugas"} Address={"Tugas"} />
         {/* <div className="singleContentData">
         <div className="fileContainer">
   {singleDoubtz?.fileType === "jpg" || singleDoubtz?.fileType === "jpeg" || singleDoubtz?.fileType === "png"? (
@@ -82,7 +82,7 @@ const SingleDoubtz = () => {
 
         <div className="flex flex-row justify-center">
         <div className="doubtResponses bg-custom-red rounded-full p-4 my-2 w-2/6 d-flex justify-content-center" >
-          <h3 className="text-white font-bold text-center">Fase Aplikasi</h3>
+          <h3 className="text-white font-bold text-center">Lembar Kerja Peserta Didik</h3>
         </div>
         </div>
 
@@ -107,7 +107,7 @@ const SingleDoubtz = () => {
               className="mx-auto border-none w-3/4 px-4"
               value={descPengetahuanAkhir}
               onChange={(e) => setDescPengetahuanAkhir(e.target.value)}
-              placeholder="e.g. Kelompok 1 | https://drive.google.com"
+              placeholder="contoh Kelompok A | Link Google Drive"
               />
             <input type="submit" className="bg-custom-red text-white py-2 px-4 rounded-full border-none max-w-md mx-auto w-1/4" />
           </form>

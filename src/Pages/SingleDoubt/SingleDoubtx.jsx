@@ -53,7 +53,7 @@ const SingleDoubtx = () => {
   return (
     <Navbar>
       <div className="singleContent">
-        <Header Title={"Final Knowledge"} Address={"Final"} />
+        <Header Title={"Pengetahuan Akhir"} Address={"Akhir"} />
         {/* <div className="singleContentData">
         <div className="fileContainer">
   {singleDoubtx?.fileType === "jpg" || singleDoubtx?.fileType === "jpeg" || singleDoubtx?.fileType === "png" ? (
@@ -86,7 +86,7 @@ const SingleDoubtx = () => {
         </div>
 
         <div className="doubtResponses bg-white bg-opacity-50 rounded-lg p-4 my-2">
-          <h3 className="text-black">Gabungkanlah 5 kata yang kalian tuliskan pada halaman initial knowledge bersama teman teman kelompok kalian, sehingga menjadi beberapa kalimat yang saling berhubungan satu sama lain. Lakukanlah diskusi secara berkelompok untuk mencari informasi tambahan, bertanya pertanyaan, atau mencoba berbagai pendekatan guna menambah pengetahuan baru mengenai materi yang sedang dipelajari!</h3>
+          <h3 className="text-black">Setelah melakukan diskusi dan menggali informasi tambahan bersama kelompok, silakan rumuskan kesimpulan berdasarkan pemahaman kalian terhadap materi yang telah dipelajari</h3>
         </div>
 
         {singleDoubtx?.response?.map((data, i) => {
@@ -109,7 +109,7 @@ const SingleDoubtx = () => {
               className="mx-auto border-none w-3/4 px-4 rounded-full"
               value={descPengetahuanAkhir}
               onChange={(e) => setDescPengetahuanAkhir(e.target.value)}
-              placeholder="e.g. Kelompok 1 | Algoritma merupakan langkah sistematis, sedangkan naratif memperkenalkan konsep pengaturan langkah. Pseudocode adalah metode ..."
+              placeholder="contoh Kelompok A | Berdasarkan hasil diskusi, kami menyimpulkan bahwa algoritma adalah langkah-langkah logis dan sistematis yang digunakan untuk menyelesaikan suatu masalah ..."
               ></textarea>
               <input type="submit" className="bg-custom-red text-white py-2 px-4 rounded-full border-none max-w-md mx-auto w-1/4" />
           </form>

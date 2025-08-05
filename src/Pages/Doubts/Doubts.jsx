@@ -125,7 +125,7 @@ const Doubts = () => {
   return (
     <Navbar>
       <div className="content">
-        <Header Title={"Initial Knowlede"} Address={"Initial"} />
+        <Header Title={"Pengetahuan Awal"} Address={"Awal"} />
 
         <div className="contentData">
           {doubt
@@ -147,7 +147,7 @@ const Doubts = () => {
         </div>
 
         <Drawer
-          title="Create Doubts"
+          title="Tambah Pengetahuan Awal Baru"
           width={720}
           onClose={onClose}
           open={open}
@@ -159,21 +159,21 @@ const Doubts = () => {
         >
           <form>
             <input
-              placeholder="Title"
+              placeholder="Judul"
               type="text"
               name="title"
               value={formData.title}
               onChange={(e) => handleFormChange(e)}
             />
             <input
-              placeholder="Description"
+              placeholder="Deskripsi"
               type="text"
               name="description"
               value={formData.description}
               onChange={(e) => handleFormChange(e)}
             />
             <input
-              placeholder="Description"
+              placeholder="Subjek"
               type="text"
               name="subject"
               value={formData.subject}
@@ -194,10 +194,10 @@ const Doubts = () => {
             className="uploadBtn"
             onClick={() => WidgetRef.current.open()}
           >
-            Upload File
+            Unggah Dokumen
           </button>
           <button className="submitBtn" onClick={handleSubmit}>
-            Add Doubt
+            Tambah
           </button>
 
           {loading ? (

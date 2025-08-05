@@ -53,7 +53,7 @@ const SingleDoubt = () => {
   return (
     <Navbar>
       <div className="singleContent">
-        <Header Title={"Initial Knowlede"} Address={"Initial"} />
+        <Header Title={"Pengetahuan Awal"} Address={"Awal"} />
         {/* <div className="singleContentData">
         <div className="fileContainer">
   {singleDoubt?.fileType === "jpg" || singleDoubt?.fileType === "jpeg" || singleDoubt?.fileType === "png"? (
@@ -86,7 +86,7 @@ const SingleDoubt = () => {
         </div>
 
         <div className="doubtResponses bg-white bg-opacity-50 rounded-lg p-4 my-2">
-          <h3 className="text-black">Setelah menonton video, masing-masing siswa silahkan untuk menuliskan lima kata kunci yang mencerminkan inti dari seluruh materi yang dibahas dalam video pembelajaran!</h3>
+          <h3 className="text-black">Setelah menyaksikan video, silakan berikan tanggapan sesuai pemahaman Anda terhadap materi yang disampaikan</h3>
         </div>
 
         {singleDoubt?.response?.map((data, i) => {
@@ -108,7 +108,7 @@ const SingleDoubt = () => {
               className="mx-auto border-none w-3/4 px-4"
               value={descPengetahuanAkhir}
               onChange={(e) => setDescPengetahuanAkhir(e.target.value)}
-              placeholder="e.g. Yasir | Sistematis, Langkah, Metode, Input,Proses"
+              placeholder="contoh Yasir | Video ini membantu saya memahami bagaimana algoritma bekerja dalam menyelesaikan ..."
             />
             <input type="submit" className="bg-custom-red text-white py-2 px-4 rounded-full border-none max-w-md mx-auto w-1/4" />
           </form>

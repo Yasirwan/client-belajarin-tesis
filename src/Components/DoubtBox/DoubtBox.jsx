@@ -38,13 +38,13 @@ const DoubtBox = ({ data }) => {
         <div class="flex items-center justify-center flex-col">
           {user?.userType == "Admin" ? (
             <div className="contentOption">
-              <button class="bg-white shadow-lg w-full rounded-full px-4 py-2 flex items-center justify-center cursor-pointer text-black hover:transition hover:duration-150 hover:transform hover:translate-y-1" onClick={() => handleClick(data._id)}><FiEye className="text-yellow-500 mr-2"/> View</button>
-              <button class="bg-white shadow-lg w-full rounded-full px-4 py-2 flex items-center justify-center cursor-pointer text-black hover:transition hover:duration-150 hover:transform hover:translate-y-1" onClick={() => handleDelete(data._id)}><FiTrash2 className="text-red-500 mr-2"/> Delete</button>
+              <button class="bg-white shadow-lg w-full rounded-full px-4 py-2 flex items-center justify-center cursor-pointer text-black hover:transition hover:duration-150 hover:transform hover:translate-y-1" onClick={() => handleClick(data._id)}><FiEye className="text-yellow-500 mr-2"/> Lihat</button>
+              <button class="bg-white shadow-lg w-full rounded-full px-4 py-2 flex items-center justify-center cursor-pointer text-black hover:transition hover:duration-150 hover:transform hover:translate-y-1" onClick={() => handleDelete(data._id)}><FiTrash2 className="text-red-500 mr-2"/> Hapus</button>
             </div>
           ) : (
             <div className="contentOption">
               <p>{data.type}</p>
-              <button class="bg-white shadow-lg w-full rounded-full px-4 py-2 flex items-center justify-center cursor-pointer text-black hover:transition hover:duration-150 hover:transform hover:translate-y-1" onClick={() => handleClick(data._id)}><FiEye className="text-yellow-500 mr-2"/> View</button>
+              <button class="bg-white shadow-lg w-full rounded-full px-4 py-2 flex items-center justify-center cursor-pointer text-black hover:transition hover:duration-150 hover:transform hover:translate-y-1" onClick={() => handleClick(data._id)}><FiEye className="text-yellow-500 mr-2"/> Lihat</button>
             </div>
           )}
         </div>

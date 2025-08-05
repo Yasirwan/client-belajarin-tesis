@@ -139,7 +139,7 @@ const Content = () => {
         )}
 
         <Drawer
-          title="Create Content"
+          title="Buat Video Baru"
           width={720}
           onClose={onClose}
           open={open}
@@ -151,21 +151,21 @@ const Content = () => {
         >
           <form>
             <input
-              placeholder="Title"
+              placeholder="Judul"
               type="text"
               name="title"
               value={formData.title}
               onChange={(e) => handleFormChange(e)}
             />
             <input
-              placeholder="Class"
+              placeholder="Kelas"
               type="text"
               name="class"
               value={formData.class}
               onChange={(e) => handleFormChange(e)}
             />
             <input
-              placeholder="Subject"
+              placeholder="Subjek"
               type="text"
               name="subject"
               value={formData.subject}
@@ -186,10 +186,10 @@ const Content = () => {
             className="uploadBtn"
             onClick={() => WidgetRef.current.open()}
           >
-            Upload File
+            Uanggah Dokumen
           </button>
           <button className="submitBtn" onClick={handleSubmit}>
-            Add Content
+            Tambah
           </button>
 
           {loading ? (

@@ -134,32 +134,32 @@ const Lessons = () => {
     <Navbar>
       <div className="lessons">
         {contextHolder}
-        <Header Title={"Lesson"} Address={"Lesson"} />
+        <Header Title={"Materi"} Address={"Materi"} />
         <div className="flex flex-row justify-center">
-        <div className="singleContentDetails bg-custom-red rounded-full p-4 my-2 w-2/6 d-flex justify-content-center" >
-          <h3 className="text-white font-bold text-center">Tujuan Pembelajaran</h3>
-        </div>
+          <div className="singleContentDetails bg-custom-red rounded-full p-4 my-2 w-2/6 d-flex justify-content-center" >
+            <h3 className="text-white font-bold text-center">Tujuan Pembelajaran</h3>
+          </div>
         </div>
         <div className="singleContentDetails bg-white bg-opacity-50 rounded-lg p-4 my-2">
           <p className="text-black text-left">1. Peserta didik dapat mendefinisikan pengertian mengenai Algoritma standar<br />
-  2. Peserta didik dapat menjelaskan mengenai Algoritma standar <br />
-  3. Peserta didik dapat menerapkan contoh yang benar terkait Pseudocode<br />
-  4. Peserta didik dapat menerapkan contoh yang benar terkait Flowchart<br />
-  </p>
-  <p className="text-black text-left">5. Peserta didik dapat mendefinisikan pengertian mengenai Pemrograman <br />
-  6. Peserta didik dapat mengimplementasikan Tipe Data<br />
-  7. Peserta didik dapat memecahkan pola penyelesaian masalah Tipe Data<br />
-  8. Peserta didik dapat mendefinisikan Percabangan if <br />
-  </p>
-  <p className="text-black text-left">
-  9. Peserta didik dapat membangun program algoritma dan pemrograman sederhana yang menerapkan konsep Percabangan if<br />
-  </p>
+            2. Peserta didik dapat menjelaskan mengenai Algoritma standar <br />
+            3. Peserta didik dapat menerapkan contoh yang benar terkait Pseudocode<br />
+            4. Peserta didik dapat menerapkan contoh yang benar terkait Flowchart<br />
+          </p>
+          <p className="text-black text-left">5. Peserta didik dapat mendefinisikan pengertian mengenai Pemrograman <br />
+            6. Peserta didik dapat mengimplementasikan Tipe Data<br />
+            7. Peserta didik dapat memecahkan pola penyelesaian masalah Tipe Data<br />
+            8. Peserta didik dapat mendefinisikan Percabangan if <br />
+          </p>
+          <p className="text-black text-left">
+            9. Peserta didik dapat membangun program algoritma dan pemrograman sederhana yang menerapkan konsep Percabangan if<br />
+          </p>
         </div>
 
         <div className="flex flex-row justify-center">
-        <div className="singleContentDetails bg-custom-red rounded-full p-4 my-2 w-2/6 d-flex justify-content-center" >
-          <h3 className="text-white font-bold text-center">Bahan Pembelajaran</h3>
-        </div>
+          <div className="singleContentDetails bg-custom-red rounded-full p-4 my-2 w-2/6 d-flex justify-content-center" >
+            <h3 className="text-white font-bold text-center">Bahan Pembelajaran</h3>
+          </div>
         </div>
 
         {/* <div className="doubtResponses bg-white bg-opacity-50 rounded-lg p-4 my-2 flex justify-center items-center">
@@ -174,41 +174,41 @@ const Lessons = () => {
             })}
         </div>
 
+        {/* <div className="flex flex-row justify-center">
+          <div className="singleContentDetails bg-custom-red rounded-full p-4 my-2 w-2/6 d-flex justify-content-center">
+            <h3 className="text-white font-bold text-center">Materi Pertemuan 1</h3>
+          </div>
+        </div>
+
+        <div className="flex justify-center">
+          <div className="doubtResponses bg-white bg-opacity-50 rounded-lg p-4 my-2 flex justify-center items-center w-3/5">
+            <iframe src="/img/Materi_Week_1_Algoritma.pdf" width="100%" height="460" style={{ margin: '10px' }}></iframe>
+          </div>
+        </div>
+
         <div className="flex flex-row justify-center">
-    <div className="singleContentDetails bg-custom-red rounded-full p-4 my-2 w-2/6 d-flex justify-content-center">
-        <h3 className="text-white font-bold text-center">Materi Pertemuan 1</h3>
-    </div>
-</div>
+          <div className="singleContentDetails bg-custom-red rounded-full p-4 my-2 w-2/6 d-flex justify-content-center">
+            <h3 className="text-white font-bold text-center">Materi Pertemuan 2</h3>
+          </div>
+        </div>
 
-<div className="flex justify-center">
-    <div className="doubtResponses bg-white bg-opacity-50 rounded-lg p-4 my-2 flex justify-center items-center w-3/5">
-        <iframe src="/img/Materi_Week_1_Algoritma.pdf" width="100%" height="460" style={{ margin: '10px' }}></iframe>
-    </div>
-</div>
+        <div className="flex justify-center">
+          <div className="doubtResponses bg-white bg-opacity-50 rounded-lg p-4 my-2 flex justify-center items-center w-3/5">
+            <iframe src="/img/Materi_Week_2_Pemrograman.pdf" width="100%" height="460" style={{ margin: '10px' }}></iframe>
+          </div>
+        </div>
 
-<div className="flex flex-row justify-center">
-    <div className="singleContentDetails bg-custom-red rounded-full p-4 my-2 w-2/6 d-flex justify-content-center">
-        <h3 className="text-white font-bold text-center">Materi Pertemuan 2</h3>
-    </div>
-</div>
+        <div className="flex flex-row justify-center">
+          <div className="singleContentDetails bg-custom-red rounded-full p-4 my-2 w-2/6 d-flex justify-content-center">
+            <h3 className="text-white font-bold text-center">Materi Pertemuan 3</h3>
+          </div>
+        </div>
 
-<div className="flex justify-center">
-    <div className="doubtResponses bg-white bg-opacity-50 rounded-lg p-4 my-2 flex justify-center items-center w-3/5">
-        <iframe src="/img/Materi_Week_2_Pemrograman.pdf" width="100%" height="460" style={{ margin: '10px' }}></iframe>
-    </div>
-</div>
-
-<div className="flex flex-row justify-center">
-    <div className="singleContentDetails bg-custom-red rounded-full p-4 my-2 w-2/6 d-flex justify-content-center">
-        <h3 className="text-white font-bold text-center">Materi Pertemuan 3</h3>
-    </div>
-</div>
-
-<div className="flex justify-center">
-    <div className="doubtResponses bg-white bg-opacity-50 rounded-lg p-4 my-2 flex justify-center items-center w-3/5">
-        <iframe src="/img/Materi_Week_3_Percabangan_dan_Perulangan.pdf" width="100%" height="460"></iframe>
-    </div>
-</div>
+        <div className="flex justify-center">
+          <div className="doubtResponses bg-white bg-opacity-50 rounded-lg p-4 my-2 flex justify-center items-center w-3/5">
+            <iframe src="/img/Materi_Week_3_Percabangan_dan_Perulangan.pdf" width="100%" height="460"></iframe>
+          </div>
+        </div> */}
 
 
         <div className="lessonData">
@@ -225,7 +225,7 @@ const Lessons = () => {
           ""
         )}
         <Drawer
-          title="Create Lesson"
+          title="Tambah Materi Baru"
           width={520}
           closable={false}
           onClose={onClose}
@@ -237,28 +237,28 @@ const Lessons = () => {
         >
           <form>
             <input
-              placeholder="Title"
+              placeholder="Judul"
               type="text"
               name="title"
               value={formData.title}
               onChange={(e) => handleFormChange(e)}
             />
             <input
-              placeholder="Lesson Thumbnail"
+              placeholder="Halaman Depan Materi"
               type="url"
               name="thumbnail"
               value={formData.thumbnail}
               onChange={(e) => handleFormChange(e)}
             />
             <input
-              placeholder="Subject"
+              placeholder="Subjek"
               type="text"
               name="subject"
               value={formData.subject}
               onChange={(e) => handleFormChange(e)}
             />
             <input
-              placeholder="Pdf file"
+              placeholder="Dokumen PDF"
               type="text"
               name="class"
               value={formData.class}
@@ -267,9 +267,9 @@ const Lessons = () => {
           </form>
           <br />
           <button className="Submit" onClick={() => submitLesson()}>
-            Add Lesson
+            Tambah
           </button>
-  
+
           <Drawer
             title="Lesson Questions"
             width={320}
@@ -337,7 +337,7 @@ const Lessons = () => {
         ) : null}
       </div>
     </Navbar>
-  );  
+  );
 };
 
 export default Lessons;

@@ -120,7 +120,7 @@ const Quiz = () => {
   return (
     <Navbar>
       <div className="singleTest">
-      <Header Title={"Test"} Address={"Tests"} />
+      <Header Title={"Latihan"} Address={"Latihan"} />
 
         <div className="quiz-wrapper w-full min-h-[100vh]">
         <div className="md:relative quiz-content h-full col-span-2">
@@ -128,7 +128,7 @@ const Quiz = () => {
             <Spiner />
           ) : (
             <div className="py-6">
-              {currentQuestion > 29 ? (
+              {currentQuestion > 4 ? (
                 window.location.replace("/user")
               ) : (
                 <div className="quiz h-full md:px-2 px-8 flex gap-4 flex-col justify-center">
@@ -219,12 +219,12 @@ const Quiz = () => {
                       <div className="progress-bar"></div>
                     </div>
                     <div className="buttons flex justify-end gap-2">
-                      {currentQuestion >= 29 ? (
+                      {currentQuestion >= 4 ? (
                         <button
                           onClick={handleSubmitQuiz}
                           className="bg-custom-red text-white shadow-lg w-28 rounded-full px-4 py-2 flex items-center justify-center cursor-pointer text-black hover:transition hover:duration-150 hover:transform hover:translate-y-1"
                         >
-                          Submit
+                          Selesai
                         </button>
                       ) : (
                         <button
@@ -233,7 +233,7 @@ const Quiz = () => {
                           }
                           className="bg-white text-black shadow-lg w-28 rounded-full px-4 py-2 flex items-center justify-center cursor-pointer text-black hover:transition hover:duration-150 hover:transform hover:translate-y-1"
                         >
-                          Next
+                          Lanjut
                         </button>
                       )}
                     </div>

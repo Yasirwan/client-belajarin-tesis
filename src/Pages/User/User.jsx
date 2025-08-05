@@ -19,10 +19,10 @@ const User = () => {
           <div className="header p-2 shadow-lg sm:px-16 px-4 text-white bg-custom-red text-center">
             <h1 className="sm:text-2xl text-lg">
               <span className="font-bold text-gray-200">
-                {score.length >= 2 ? "Good Job:" : "Opps! try again:"}
+                {score.length >= 2 ? "Kerja Bagus:" : "Maaf! Coba Lagi:"}
               </span>{" "}
               <span className="text-gray-200">
-                You score is {score.length} of {userQuiz.length}
+                Nilai Kamu {score.length} dari {userQuiz.length}
               </span>
             </h1>
           </div>
@@ -31,12 +31,12 @@ const User = () => {
             className="fixed bottom-6 z-20 right-6 bg-custom-red text-white shadow-lg w-28 rounded-full px-4 py-2 flex items-center justify-center cursor-pointer text-black hover:transition hover:duration-150 hover:transform hover:translate-y-1"
             // className="fixed bottom-6 z-20 right-6 shadow-xl w-24 h-24 text-gray-100 px-4 py-2 bg-red-500 rounded-full flex justify-center items-center"
           >
-            Close
+            Tutup
           </button>
           <div className="indicators flex justify-center items-center gap-2 mt-8">
-            <div className="flex justify-center items-center"><span className="w-4 h-4 flex rounded-full bg-green-200 mr-2"></span> Correct</div>
-            <div className="flex justify-center items-center"><span className="w-4 h-4 block rounded-full bg-red-200 mr-2"></span> Incorrect</div>
-            <div className="flex justify-center items-center"><span className="w-4 h-4 block rounded-full bg-yellow-200 mr-2"></span> Unattempted</div>
+            <div className="flex justify-center items-center"><span className="w-4 h-4 flex rounded-full bg-green-200 mr-2"></span> Benar</div>
+            <div className="flex justify-center items-center"><span className="w-4 h-4 block rounded-full bg-red-200 mr-2"></span> Salah</div>
+            <div className="flex justify-center items-center"><span className="w-4 h-4 block rounded-full bg-yellow-200 mr-2"></span> Kosong</div>
           </div>
           <div className="py-8 flex flex-col gap-4">
             {userQuiz &&

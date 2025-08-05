@@ -105,18 +105,18 @@ const Student = () => {
   return (
     <Navbar>
       <div className="admin">
-        <Header Title={"Student Data"} Address={"Student"} />
+        <Header Title={"Data Siswa"} Address={"Siswa"} />
         <div className="adminData">
           <section className="tableBody">
             <table>
               <thead>
                 <tr>
-                  <th>Name</th>
+                  <th>Nama</th>
                   <th>Email</th>
-                  <th>Class</th>
-                  <th>Access</th>
-                  <th>Edit</th>
-                  <th>Delete</th>
+                  <th>Kelas</th>
+                  <th>Akses</th>
+                  {/* <th>Ubah</th>
+                  <th>Hapus</th> */}
                 </tr>
               </thead>
               <tbody>
@@ -131,7 +131,7 @@ const Student = () => {
           <AddIcon />
         </div>
         <Drawer
-          title="Create a new account"
+          title="Buat Akun Baru"
           width={720}
           onClose={onClose}
           open={open}
@@ -148,7 +148,7 @@ const Student = () => {
               name="name"
               type="text"
               value={FormData.name}
-              placeholder="Enter Name"
+              placeholder="Masukkan Nama"
               onChange={(e) => handleInputChange(e)}
             />
             <input
@@ -156,7 +156,7 @@ const Student = () => {
               name="email"
               type="email"
               value={FormData.email}
-              placeholder="Enter Email"
+              placeholder="Masukkan Email"
               onChange={(e) => handleInputChange(e)}
             />
             <input
@@ -164,19 +164,19 @@ const Student = () => {
               name="password"
               type="password"
               value={FormData.password}
-              placeholder="Enter Password"
+              placeholder="Masukkan Kata Sandi"
               onChange={(e) => handleInputChange(e)}
             />
             <select name="class" onChange={(e) => handleInputChange(e)}>
-              <option value="">Choose Class</option>
-              <option value={5}>X RPL 1</option>
-              <option value={6}>X RPL 2</option>
-              <option value={7}>X PPLG 3</option>
-              <option value={8}>X RPL 4</option>
-              <option value={9}>X RPL 5</option>
-              <option value={10}>X RPL 6</option>
+              <option value="">Pilih Kelas</option>
+              <option value={5}>XII Oracle 1</option>
+              <option value={6}>XII Oracle 2</option>
+              <option value={7}>XII Oracle 3</option>
+              <option value={8}>XII Oracle 4</option>
+              <option value={9}>XII Oracle 5</option>
+              <option value={10}>XII Oracle 6</option>
             </select>
-            <input type="submit" value="Add Student" />
+            <input type="submit" value="Tambah" />
           </form>
           {loading ? (
             <Space

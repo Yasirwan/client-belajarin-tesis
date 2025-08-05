@@ -114,7 +114,7 @@ const Scratchs = () => {
     <Navbar>
       <div className="scratchs">
         {contextHolder}
-        <Header Title={"Quiz"} Address={"Quiz"} />
+        <Header Title={"Kuis"} Address={"Kuis"} />
         <div className="scratchData">
           {scratch?.map((data, i) => {
             return <Scratch data={data} key={i} />;
@@ -128,7 +128,7 @@ const Scratchs = () => {
           ""
         )}
         <Drawer
-          title="Create Scratch"
+          title="Buat Kuis Baru"
           width={520}
           closable={false}
           onClose={onClose}
@@ -140,35 +140,35 @@ const Scratchs = () => {
         >
           <form>
             <input
-              placeholder="Title"
+              placeholder="Judul"
               type="text"
               name="title"
               value={formData.title}
               onChange={(e) => handleFormChange(e)}
             />
             <input
-              placeholder="Scratch Thumbnail"
+              placeholder="Latar Belakang Kuis"
               type="url"
               name="thumbnail"
               value={formData.thumbnail}
               onChange={(e) => handleFormChange(e)}
             />
             <input
-              placeholder="Description"
+              placeholder="Deskripsi"
               type="text"
               name="subject"
               value={formData.subject}
               onChange={(e) => handleFormChange(e)}
             />
             <input
-              placeholder="No.of Questions"
+              placeholder="Jumlah Kuis"
               type="number"
               name="noOfQuestions"
               value={formData.noOfQuestions}
               onChange={(e) => handleFormChange(e)}
             />
             <input
-              placeholder="Points per question"
+              placeholder="Nilai"
               type="number"
               name="pointPerQuestion"
               value={formData.pointPerQuestion}
@@ -176,7 +176,7 @@ const Scratchs = () => {
             />
             <input
               placeholder="Total points"
-              value={`Total Points : ${
+              value={`Jumlah Nilai : ${
                 formData.noOfQuestions * formData.pointPerQuestion
               }`}
               name="totalPoints"
@@ -184,7 +184,7 @@ const Scratchs = () => {
             />
           </form>
           <button className="Submit" onClick={() => submitScratch()}>
-            Add Scratch
+            Tambah
           </button>
 
           {loading ? (
