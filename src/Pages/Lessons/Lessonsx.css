@@ -264,7 +264,7 @@ button:hover{
   display: flex;
   flex-direction: column;
   color: var(--blue);
-  background: radial-gradient(circle at top, #ffd6de 16%, #ffffff 40%);
+  background: #ffffff;
   border-radius: 0px 0px 160px 160px;
   align-items: center;
   justify-content: center;

@@ -13,7 +13,7 @@ export default {
         montserrat:["Montserrart", "sans-serif"]
       },
       colors: {
-        'custom-red': '#920000',
+        'custom-red': '#1E0342',
         'custom-yellow': '#FFD143',
       }
     },

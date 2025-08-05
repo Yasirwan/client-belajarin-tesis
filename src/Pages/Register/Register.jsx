@@ -108,11 +108,11 @@ const Register = () => {
                   className="p-2 my-2"
                 />
                 <div style={{ textAlign: 'center' }}>
-                  <button type="submit" className="p-2 my-2" style={{ backgroundColor: '#920000' }}>Sign up</button>
+                  <button type="submit" className="p-2 my-2" style={{ backgroundColor: '#1E0342' }}>Sign up</button>
                   <h3 className="text-gray-700 text-l font-medium" style={{ fontSize: 'medium', fontWeight: 'normal' }}>Or</h3>
                   <div className="flex flex-row">
-                  <button onClick={() => navigate('/login')} className="p-2 my-2" style={{ backgroundColor: 'white',color: '#920000', marginRight: '20px', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)'}}>Log in</button>
-                  <button onClick={() => navigate('/')} className="p-2 my-2" style={{ backgroundColor: 'white',color: '#920000',boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)'}}>Home</button>
+                  <button onClick={() => navigate('/login')} className="p-2 my-2" style={{ backgroundColor: 'white',color: '#1E0342', marginRight: '20px', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)'}}>Log in</button>
+                  <button onClick={() => navigate('/')} className="p-2 my-2" style={{ backgroundColor: 'white',color: '#1E0342',boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)'}}>Home</button>
                 </div>                
                 </div>
               </form>

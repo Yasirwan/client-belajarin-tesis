@@ -40,7 +40,7 @@ li {
   --orange: #fd7238;
   --light-orange: #ffe0d3;
   --green: #6BCB77;
-  --pink: #FF869E;
+  --pink: #1E0342;
 }
 
 html {
@@ -49,5 +49,5 @@ html {
 
 body {
   overflow-x: hidden;
-  background: radial-gradient(circle at top left, #fff4d4,#ffffff, #ffd6de);
+  background: #ececec;
 }
