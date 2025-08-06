@@ -53,8 +53,8 @@ const SingleDoubtx = () => {
   return (
     <Navbar>
       <div className="singleContent">
-        <Header Title={"Pengetahuan Akhir"} Address={"Akhir"} />
-        {/* <div className="singleContentData">
+        <Header Title={"Kesimpulan"} Address={"Kesimpulan"} />
+        {/* <div className="singleContentData">Kesimpulan
         <div className="fileContainer">
   {singleDoubtx?.fileType === "jpg" || singleDoubtx?.fileType === "jpeg" || singleDoubtx?.fileType === "png" ? (
     <img src={singleDoubtx?.fileUrl} alt="" />
@@ -81,7 +81,7 @@ const SingleDoubtx = () => {
 
         <div className="flex flex-row justify-center">
         <div className="doubtResponses bg-custom-red rounded-full p-4 my-2 w-2/6 d-flex justify-content-center" >
-          <h3 className="text-white font-bold text-center">Pengetahuan Akhir</h3>
+          <h3 className="text-white font-bold text-center">Kesimpulan</h3>
         </div>
         </div>
 

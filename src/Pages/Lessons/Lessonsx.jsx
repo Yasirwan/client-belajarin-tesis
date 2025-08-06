@@ -214,9 +214,9 @@ const Lessonsx = () => {
           <div className="credits" data-aos="fade-down" data-aos-delay="500">
             <h1 className="title">Kredit</h1>
             <p>Situs web ini dibuat dengan memanfaatkan aset-aset berikut.</p>
-            <p className="font-bold">Buku</p>
+            <p className="font-bold">Foto</p>
             <p>https://www.freepik.com/</p>
-            <p className="font-bold">Book</p>
+            <p className="font-bold">Buku</p>
             <p>https://buku.kemdikbud.go.id/katalog/informatika-untuk-smkmak-kelas-x-semester-2</p>
             <p className="font-bold">Video</p>
             <p>https://www.youtube.com/watch?v=fLqHSiJMMyI</p>

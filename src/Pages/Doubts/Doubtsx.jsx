@@ -125,7 +125,7 @@ const Doubtsx = () => {
   return (
     <Navbar>
       <div className="content">
-        <Header Title={"Pengetahuan Akhir"} Address={"Akhir"} />
+        <Header Title={"Kesimpulan"} Address={"Kesimpulan"} />
 
         <div className="contentData">
           {doubtx
@@ -147,7 +147,7 @@ const Doubtsx = () => {
         </div>
 
         <Drawer
-          title="Tambah Pengetahuan Akhir Baru"
+          title="Tambah Kesimpulan Baru"
           width={720}
           onClose={onClose}
           open={open}

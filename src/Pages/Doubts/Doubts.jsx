@@ -125,7 +125,7 @@ const Doubts = () => {
   return (
     <Navbar>
       <div className="content">
-        <Header Title={"Pengetahuan Awal"} Address={"Awal"} />
+        <Header Title={"Tanggapan"} Address={"Tanggapan"} />
 
         <div className="contentData">
           {doubt
@@ -147,7 +147,7 @@ const Doubts = () => {
         </div>
 
         <Drawer
-          title="Tambah Pengetahuan Awal Baru"
+          title="Tambah Tanggapan Baru"
           width={720}
           onClose={onClose}
           open={open}

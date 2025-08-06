@@ -53,7 +53,7 @@ const SingleDoubt = () => {
   return (
     <Navbar>
       <div className="singleContent">
-        <Header Title={"Pengetahuan Awal"} Address={"Awal"} />
+        <Header Title={"Tanggapan"} Address={"Tanggapan"} />
         {/* <div className="singleContentData">
         <div className="fileContainer">
   {singleDoubt?.fileType === "jpg" || singleDoubt?.fileType === "jpeg" || singleDoubt?.fileType === "png"? (
@@ -81,7 +81,7 @@ const SingleDoubt = () => {
 
         <div className="flex flex-row justify-center">
         <div className="doubtResponses bg-custom-red rounded-full p-4 my-2 w-2/6 d-flex justify-content-center" >
-          <h3 className="text-white font-bold text-center">Pengetahuan Awal</h3>
+          <h3 className="text-white font-bold text-center">Tanggapan</h3>
         </div>
         </div>
 

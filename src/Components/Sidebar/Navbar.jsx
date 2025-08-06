@@ -49,8 +49,8 @@ const Navbar = ({ children }) => {
     { icon: <AiOutlineRead />, title: "Materi", address: "/lessons" },
     { icon: <MdOutlineMenuOpen />, title: "Aktivitas", childrens: [
       { icon: <AiOutlinePlayCircle />, title: "Video", address: "/contents" },
-      { icon: <IoExtensionPuzzleOutline />, title: "Pengetahuan Awal", address: "/doubts" },
-      { icon: <IoBulbOutline />, title: "Pengetahuan Akhir", address: "/doubtsx" },
+      { icon: <IoExtensionPuzzleOutline />, title: "Tanggapan", address: "/doubts" },
+      { icon: <IoBulbOutline />, title: "Kesimpulan", address: "/doubtsx" },
       { icon: <MdOutlineAssignment />, title: "Tugas", address: "/doubtsz" },
       { icon: <CgGames />, title: "Kuis", address: "/scratchs" },
     ]},
@@ -63,8 +63,8 @@ const Navbar = ({ children }) => {
     { icon: <AiOutlineRead />, title: "Materi", address: "/lessons" },
     { icon: <MdOutlineMenuOpen />, title: "Aktivitas", childrens: [
       { icon: <AiOutlinePlayCircle />, title: "Video", address: "/contents" },
-      { icon: <IoExtensionPuzzleOutline />, title: "Pengetahuan Awal", address: "/doubts" },
-      { icon: <IoBulbOutline />, title: "Pengetahuan Akhir", address: "/doubtsx" },
+      { icon: <IoExtensionPuzzleOutline />, title: "Tanggapan", address: "/doubts" },
+      { icon: <IoBulbOutline />, title: "Kesimpulan", address: "/doubtsx" },
       { icon: <MdOutlineAssignment />, title: "Tugas", address: "/doubtsz" },
       { icon: <CgGames />, title: "Kuis", address: "/scratchs" },
     ]},
@@ -76,8 +76,8 @@ const Navbar = ({ children }) => {
     { icon: <AiOutlineRead />, title: "Lessons", address: "/lessons" },
     { icon: <MdOutlineMenuOpen />, title: "Aktivitas", childrens: [
       { icon: <AiOutlinePlayCircle />, title: "Video", address: "/contents" },
-      { icon: <IoExtensionPuzzleOutline />, title: "Pengetahuan Awal", address: "/doubts" },
-      { icon: <IoBulbOutline />, title: "Pengetahuan Akhir", address: "/doubtsx" },
+      { icon: <IoExtensionPuzzleOutline />, title: "Tanggapan", address: "/doubts" },
+      { icon: <IoBulbOutline />, title: "Kesimpulan", address: "/doubtsx" },
       { icon: <MdOutlineAssignment />, title: "Tugas", address: "/doubtsz" },
       { icon: <CgGames />, title: "Kuis", address: "/scratchs" },
     ]},
