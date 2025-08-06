@@ -109,7 +109,7 @@ const Register = () => {
                 />
                 <div style={{ textAlign: 'center' }}>
                   <button type="submit" className="p-2 my-2" style={{ backgroundColor: '#1E0342' }}>Daftar</button>
-                  <h3 className="text-gray-700 text-l font-medium" style={{ fontSize: 'medium', fontWeight: 'normal' }}>Or</h3>
+                  <h3 className="text-gray-700 text-l font-medium" style={{ fontSize: 'medium', fontWeight: 'normal' }}>Atau</h3>
                   <div className="flex flex-row">
                   <button onClick={() => navigate('/login')} className="p-2 my-2" style={{ backgroundColor: 'white',color: '#1E0342', marginRight: '20px', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)'}}>Masuk</button>
                   <button onClick={() => navigate('/')} className="p-2 my-2" style={{ backgroundColor: 'white',color: '#1E0342',boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)'}}>Beranda</button>
